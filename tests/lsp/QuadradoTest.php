@@ -1,6 +1,6 @@
 <?php 
 
-include_once '../base_dir.php';
+include_once '../../base_dir.php';
 include_once DIR_LSP . 'Quadrado.php';
 
 class QuadradoTest extends PHPUnit_Framework_TestCase {

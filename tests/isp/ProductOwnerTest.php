@@ -9,9 +9,9 @@ class ProductOwnerTest extends PHPUnit_Framework_TestCase
     {
         $productOwner = new ProductOwner();
         
-        $resultado = $productOwner->blindarTime();
+        $resultado = $productOwner->priorizarBacklog();
         
-        $this->assertEquals("Priorizando Backlog",$resultado);
+        $this->assertEquals("Priorizando backlog",$resultado);
     }
 }
 
